@@ -1,27 +1,30 @@
-  body {
+body {
     font-family: "Roboto", sans-serif;
     color:#434455;
     background-color: #FFFFFF;
-  }
-  ul, ol {
+}
+ul, ol {
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
-  h1, h2, h3, h4, h5, h6, p {
+}
+h1, h2, h3, h4, h5, h6, p {
     margin: 0;
-  }
-  a {
+}
+a {
     text-decoration: none;
-  }
+}
+img {
+    display: block;
+}
 
 /*common*/
 
-  .container {
+.container {
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-  }
+}
 
 /*header*/
 .page-header {
@@ -95,6 +98,7 @@
 }
     /*first section*/
     .first-section {
+        padding-bottom: 60px;
         background-color:#2e2f42;
     }
     .container .first-section {
@@ -110,13 +114,13 @@
         text-align: center;
         color: #fff;
         max-width: 496px;
-        justify-content: center;
         padding-top: 188px;
-        padding-bottom: 188px;
+        padding-bottom: 48px;
     }
     .first-section-button {
         display: block;
         margin: auto;
+        margin-bottom: 188px;
         min-width: 169px;
         height: 56px;
         text-align: center;
@@ -136,6 +140,11 @@
 }
 
     /*second section*/
+
+    .second-section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
     .visually-hidden { 
         width: 1px;
         height: 1px;
@@ -153,7 +162,8 @@
     
     .nav-second-section {
         display: flex;
-        margin: 120px 156px;
+        justify-content: space-between;
+        align-items: stretch;
         gap: 24px;
         }
         
@@ -172,12 +182,16 @@
     letter-spacing: 0.02em;
     color: #434455;
 }
-.li-item {
-    display: block;
+.li-item {    
+    width: 264px;
     flex-basis: calc((100% - 72px) / 4);
 }
 
     /*third section*/
+    .third-section{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
 .container .third-section {
     display: flex;
     align-items: center;
@@ -203,6 +217,10 @@
 }
 
     /*fourth section same as previous*/
+    .fourth-section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
 
 .page-footer {
     background-color:#2e2f42;;
