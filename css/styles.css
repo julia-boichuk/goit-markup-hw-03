@@ -187,7 +187,8 @@ img {
 }
 .li-item {    
     width: 264px;
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
     /*third section*/
@@ -247,17 +248,22 @@ img {
         
     }
     .container .fourth-section {
+        border: 1px solid #e7e9fc;
+        border-top: none;
+        }
+    .container-item {
         padding: 32px 16px;
         border: 1px solid #e7e9fc;
         border-top: none;
-
-
-        }
+    }
+    .header-three {
+        margin-bottom: 8px;
+    }
 
 
 
 /*footer*/
-.container-footer {
+.container .footer {
     display: flex;
     align-items: center;
     margin-top: 100px;
