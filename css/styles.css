@@ -233,7 +233,6 @@ img {
     border-radius: 0px 0px 4px 4px;
 }
 .header-three {
-        text-align: center;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -242,6 +241,7 @@ img {
         margin-bottom: 8px;
         margin-left: auto;
         margin-right: auto;
+        text-align: center;
 }
 .p-third-section {
     text-align: center;
@@ -273,15 +273,15 @@ img {
         border-top: none;
         padding: 32px 16px;
     }
-    .header-three {
+    .header-four {
         margin-bottom: 8px;
         text-align: left;
     }
-        .portfolio-box {
-            padding: 32px 16px;
-            border: 1px solid #e7e9fc;
-            border-top: none;
-            /* для скидання стилів обводки для верхнього краю контейнера */
+    .portfolio-box {
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
+        /* для скидання стилів обводки для верхнього краю контейнера */
         }
 
 
