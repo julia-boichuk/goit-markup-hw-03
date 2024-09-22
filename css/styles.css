@@ -204,10 +204,14 @@ img {
 .nav-list-third-section {
     display: flex;
     gap: 24px;
-    text-align: center;
+}
+.text-box {
+    padding: 32px 0;
 }
 .third-section {
     background-color:#f4f4fd;
+    padding-bottom: 120px;
+    padding-top: 120px;
 }
 .header-two {
     font-weight: 700;
@@ -217,7 +221,8 @@ img {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 72px;
 }
 .our-team-item {
@@ -228,11 +233,19 @@ img {
     border-radius: 0px 0px 4px 4px;
 }
 .header-three {
-    text-align: center;
-    margin-bottom: 8px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        margin-bottom: 8px;
+        margin-left: auto;
+        margin-right: auto;
 }
 .p-third-section {
     text-align: center;
+    color: #434455;
 }
 
 
@@ -245,16 +258,15 @@ img {
     .our-portfolio-item {
         width: 360px;
         width: calc((100% - 48px) / 3);
+        background-color: #fff;
     }
 
     .nav-list-fourth-section {
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
         column-gap: 24px;
-        row-gap: 48px;
-        justify-content: space-between;
-        align-items: stretch;
-        width: 1128px;        
+        row-gap: 48px;       
     }
     .container .fourth-section {
         border: 1px solid #e7e9fc;
@@ -265,27 +277,30 @@ img {
         margin-bottom: 8px;
         text-align: left;
     }
+        .portfolio-box {
+            padding: 32px 16px;
+            border: 1px solid #e7e9fc;
+            border-top: none;
+            /* для скидання стилів обводки для верхнього краю контейнера */
+        }
 
 
 
 /*footer*/
-.container .footer {
-    display: flex;
-    align-items: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 156px;
-    padding: 100px 0;
+.footer {
+        padding: 100px 0;
+        color: #f4f4fd;
+        background-color: #2e2f42;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
 }
 .footer-logo .logo-part {
     font-family: "Raleway", sans-serif;
     color: #f4f4fd;
 }
 
-.footer-section {
-    display: flex;
-    background-color: #2e2f42;
-}
 .footer-logo {
     display: inline-block;
     margin-bottom: 16px;
@@ -293,11 +308,9 @@ img {
 
 }
 .p-footer {
-    font-weight: 400;
-    font-size: 16px;
-    max-width: 264px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
-    margin-top: 16px;
+        color: #F4F4FD;
+        letter-spacing: 0.02em;
+        line-height: 1.5;
+        text-transform: none;
+        max-width: 264px;
 }
